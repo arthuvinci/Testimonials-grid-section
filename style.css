@@ -17,6 +17,19 @@ body{
     height: 100vh;
     align-content:center;
 }
+.card1:hover,.card2:hover,.card3:hover,.card4:hover,.card5:hover{
+    transform: scale(110%);
+    transition:.3s ease-in-out;
+    z-index: 10;
+}
+.card1,
+.card2,
+.card3,
+.card4,
+.card5{
+    transform: scale(100%);
+    transition:.3s ease-in-out;
+}
 
 .card1{
     background-color: hsl(263, 55%, 52%);
